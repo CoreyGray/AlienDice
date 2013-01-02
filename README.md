@@ -26,3 +26,11 @@ Your turn continues until you stop and keep your accumulated score or are zapped
 
 The winner is the first to reach 20 points.  Each other player gets one more turn after the first player to reach 20 points.
 
+Technology
+==========
+
+Server side will use Microsoft Web API for a REST like interface and sql server express to store data.
+
+Client side will be plain HTML5 and javascript.  No MVC or razor syntax.
+
+
