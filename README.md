@@ -7,6 +7,15 @@ Alien Dice is an HTML5 based dice game for 2+ players with an alien theme.
 Alien Dice is intended as a learning project and as such will be open source but collaboration will be by invitation only at least at first.
 
 
+Getting Started
+===============
+
+First create an account on GitHub.  Then download and install GitHub for Windows (and obviously link it to your github account).  Now fork this project.
+You now have you're own repo that is a copy of this project.  Make a branch.  You will be making changes on this branch.  Then you will commit the changes and push (sync) to your repository.
+Now your changes are on GitHub in your version of the repository.  To get them in to the official production version you make a pull request.  Your changes are then reviewed and either rejected or merged in to the project.
+To make new changes you create a new branch. Rinse and repeat.
+
+
 The Concept
 ===========
 
@@ -32,5 +41,7 @@ Technology
 Server side will use Microsoft Web API for a REST like interface and sql server express to store data.
 
 Client side will be plain HTML5 and javascript.  No MVC or razor syntax.
+
+
 
 
