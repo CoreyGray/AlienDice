@@ -6,6 +6,8 @@ A game of Alien Dice!!
 Alien Dice is an HTML5 based dice game for 2+ players with an alien theme.
 Alien Dice is intended as a learning project and as such will be open source but collaboration will be by invitation only at least at first.
 
+For more in-depth coverage of the rules and the game setup go to the Wiki. 
+
 
 Getting Started
 ===============
