@@ -40,9 +40,9 @@ namespace AlienDiceAPI.Controllers
     public class GamesController : ApiController
     {
         // GET api/games/gameid
-        public string Get(string gameId)
+        public AlienDiceAPI.Models.AlienDiceGameState Get(string gameId)
         {
-            return "game state";
+            return  AlienDiceAPI.Models.AlienDiceGameState new AlienDiceAPI.Models.AlienDiceGameState();
         }
 
     }
