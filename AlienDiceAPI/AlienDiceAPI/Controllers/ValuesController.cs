@@ -42,7 +42,7 @@ namespace AlienDiceAPI.Controllers
         // GET api/games/gameid
         public AlienDiceAPI.Models.AlienDiceGameState Get(string gameId)
         {
-            return  AlienDiceAPI.Models.AlienDiceGameState new AlienDiceAPI.Models.AlienDiceGameState();
+            return   new AlienDiceAPI.Models.AlienDiceGameState();
         }
 
     }
