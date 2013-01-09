@@ -154,6 +154,7 @@
     if (typeof camel !== 'undefined') {
         root = camel;
     }
+    //uses prototype because some code was created before the Class code was added
     services = root.services = {};
     services.ServiceLocator = (function () {
         function ServiceLocator(){

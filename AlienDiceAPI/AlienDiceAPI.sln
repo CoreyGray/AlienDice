@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlienDiceAPI", "AlienDiceAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlienDiceAPI.Tests", "AlienDiceAPI.Tests\AlienDiceAPI.Tests.csproj", "{DCBFAF99-4D71-4D1A-8D19-D304273E736D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlienDiceSPA", "..\AlienDiceSPA\AlienDiceSPA.csproj", "{F7FA60BE-5A0A-4749-A528-7A09EF9EF978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{DCBFAF99-4D71-4D1A-8D19-D304273E736D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCBFAF99-4D71-4D1A-8D19-D304273E736D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCBFAF99-4D71-4D1A-8D19-D304273E736D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FA60BE-5A0A-4749-A528-7A09EF9EF978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FA60BE-5A0A-4749-A528-7A09EF9EF978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FA60BE-5A0A-4749-A528-7A09EF9EF978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FA60BE-5A0A-4749-A528-7A09EF9EF978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
