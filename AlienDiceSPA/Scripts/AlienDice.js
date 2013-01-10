@@ -8,9 +8,9 @@
     var alienDice;
     if (typeof camel !== 'undefined') {
         root = camel;
-        alienDice = new root.apps.AppModule();
-        root.RegisterModule(alienDice);
-        root.apps.alienDice = alienDice;
+        alienDice = new root.apps.appModule();
+        root.apps.register(alienDice);
+        //root.apps.alienDice = alienDice;
     }
     else {
         alienDice = root.alienDice = {};
