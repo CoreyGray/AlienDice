@@ -7,7 +7,11 @@ namespace AlienDiceAPI.Models
 {
     public class AlienDiceGameTurn
     {
-        private int PlayerNumber;
-        
+        private int intPlayerNumber;
+        public int PlayerNumber
+        {
+            get {return intPlayerNumber; }
+            set {intPlayerNumber = value;}
+        }
     }
 }
