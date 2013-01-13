@@ -1,4 +1,6 @@
-﻿//camel stands for Camel is an Application Module Extensible Library
+﻿/// <reference path="jquery-1.7.1.js" />
+/// <reference path="Util.js" />
+//camel stands for Camel is an Application Module Extensible Library
 /// <reference path="knockout-2.1.0.js" />
 /// <reference path="knockout.mapping-latest.js" />
 
@@ -291,3 +293,13 @@
 }).call(this);
 
 
+(function () {
+    var CommSetting = Class.extend({
+        init: function () {
+            this.baseURL = "";
+            
+        }
+    });
+   
+    camel.CommSetting = CommSetting;
+})();
