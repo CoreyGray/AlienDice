@@ -67,4 +67,15 @@ namespace AlienDiceAPI.Models
         public int PlayerNumber { get; set; }
         public int Score { get; set; }
     }
+
+    public class ScorePair
+    {
+        public string Name { get; set; }
+        public int Score { get; set; }
+        public ScorePair(string sName,int intScore)
+        {
+            Name = sName;
+            Score = intScore;
+        }
+    }
 }

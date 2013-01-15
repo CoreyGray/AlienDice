@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using AlienDiceAPI.Models;
 
 namespace AlienDiceAPI.Controllers
 {
@@ -56,6 +57,7 @@ namespace AlienDiceAPI.Controllers
         }
 
         [HttpGet]
+        [ActionName("Moves")]
         public IEnumerable<string> Moves(string id)
         {
             //gets a list of moves available to the logged in player for the given game
@@ -63,9 +65,18 @@ namespace AlienDiceAPI.Controllers
         }
 
         [HttpPost]
-        public void Moves(string id)
+        [ActionName("Moves")]
+        public void PostMoves(string id)
         {
             //send the next move for the given game
         }
+
+        [HttpGet]
+        public IEnumerable<ScorePair> LeaderBoards()
+        {
+            return new ScorePair[] {new ScorePair("Some Guy",33),new ScorePair("Another Guy",22) };
+        }
+
+        
     }
 }
