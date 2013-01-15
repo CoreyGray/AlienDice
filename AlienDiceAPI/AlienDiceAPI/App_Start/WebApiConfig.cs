@@ -10,10 +10,19 @@ namespace AlienDiceAPI
         public static void Register(HttpConfiguration config)
         {
             config.Routes.MapHttpRoute(
+    name: "DefaultApiWithAction",
+    routeTemplate: "api/{controller}/{action}"
+    );
+            config.Routes.MapHttpRoute(
+                name:"DefaultAPIWithActionID",
+                routeTemplate: "api/{controller}/{action}/{id}"
+                );
+            config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
         }
     }
 }

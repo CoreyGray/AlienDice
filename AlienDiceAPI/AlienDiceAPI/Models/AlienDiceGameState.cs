@@ -17,9 +17,21 @@ namespace AlienDiceAPI.Models
             get;
             set;
         }
+        public ICollection<GamePlayer> Players { get; set; }
+        public ICollection<GameScore> Scores { get; set; }
+        public ICollection<AlienDiceGameRoll> Rolls { get; set; }
     }
 
-    
+
+    public class AlienDiceGameRoll
+    {
+        public ICollection<AlienDiceDieRoll> Dice { get; set; }
+    }
+
+    public class AlienDiceDieRoll
+    {
+       
+    }
 
     public class AlienDiceGameMove
     {
@@ -45,5 +57,14 @@ namespace AlienDiceAPI.Models
         public int GameStatus { get; set; } //finished, open etc.
 
 
+    }
+
+    public class GameScore
+    {
+        public System.Guid Id { get; set; }
+        public System.Guid GameID { get; set; }
+        public System.Guid PlayerID { get; set; }
+        public int PlayerNumber { get; set; }
+        public int Score { get; set; }
     }
 }

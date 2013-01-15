@@ -37,18 +37,7 @@ namespace AlienDiceAPI.Controllers
         }
     }
 
-    public class GamesController : ApiController
-    {
-        // GET api/games/gameid
-        public AlienDiceAPI.Models.AlienDiceGameState Get(string gameId)
-        {
-            return   new AlienDiceAPI.Models.AlienDiceGameState();
-        }
+    
 
-    }
-
-    public class MovesController : ApiController
-    {
-        
-    }
+   
 }

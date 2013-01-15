@@ -23,6 +23,7 @@ namespace AlienDiceAPI.Controllers
 
         public AlienDiceAPI.Models.AlienDiceGameTurn Get(string id)
         {
+           
             AlienDiceAPI.Models.AlienDiceGameTurn ret = new AlienDiceAPI.Models.AlienDiceGameTurn();
             ret.PlayerNumber = 3;
             return ret;
