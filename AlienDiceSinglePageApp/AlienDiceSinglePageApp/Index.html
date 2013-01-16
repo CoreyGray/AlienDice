@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.9.0.js"></script>
+     <script src="Scripts/TempTests.js"></script>
+   <!-- <script src="Scripts/Util.js"></script>-->
+   <!-- <script data-main="scripts/main" src="scripts/require.js"></script>-->
+
+   
+    <!--<script src="Scripts/camel.js"></script>-->
+    <!--<script src="Scripts/DiceEngine.js"></script>-->
+    <!--<script src="Scripts/AlienDice.js"></script>-->
+    <!--<script src="Scripts/AlienDiceUI.js"></script>-->
+    <style type="text/css">
+        #Text1
+        {
+            width: 255px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        Server URL</p>
+    <input id="Text1" type="text" value="http://localhost:55954" />
+    <div id="testDiv"></div>
+    <p>
+    <input type="button" value="echo test" onclick="performEchoTest($('#Text1').val())" /></p>
+</body>
+</html>
